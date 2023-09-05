@@ -1,0 +1,766 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+main {
+  width: 1515px;
+  height: 2890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+main .youtube {
+  font-family: "Mukta", sans-serif;
+  width: 100%;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .youtube .youtube_main {
+  width: 55%;
+  height: 90%;
+  border-bottom: 1px solid #393953;
+}
+main .youtube .youtube_main h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700px;
+  line-height: 72px;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+main .youtube .youtube_main h1::before {
+  content: "Category";
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  color: #A59EBA;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+main .youtube .youtube_main .youtube_main_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+main .youtube .youtube_main .youtube_main_item .youtube_item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+main .youtube .youtube_main .youtube_main_item .youtube_item span {
+  padding: 4px 16px;
+  background: #16B57F;
+  border-radius: 108px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+main .youtube .youtube_main .youtube_main_item .youtube_item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #A59EBA;
+  position: relative;
+}
+main .youtube .youtube_main .youtube_main_item .youtube_item p::after {
+  content: "$5,000";
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  top: 0px;
+  left: 120px;
+  position: absolute;
+}
+main .youtube .youtube_main .youtube_main_item button {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #6966FF;
+  border: 2px solid #6966FF;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500px;
+  transition: ease-in-out 450ms;
+}
+main .youtube .youtube_main .youtube_main_item button:hover {
+  background: none;
+  box-shadow: 0px 0px 12px 1px rgba(197, 208, 217, 0.2);
+  cursor: pointer;
+}
+main .youtube .youtube_main .youtube_members {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 160px;
+  position: relative;
+  gap: 50px;
+}
+main .youtube .youtube_main .youtube_members::before {
+  content: "Team";
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+}
+main .youtube .youtube_main .youtube_members ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 185px;
+  height: 56px;
+  background: #393953;
+  border-radius: 108px;
+}
+main .youtube .youtube_main .youtube_members ul li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+main .youtube .youtube_main .youtube_members ul li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+main .description {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mukta", sans-serif;
+}
+main .description .description_main {
+  width: 55%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .description .description_main ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+main .description .description_main ul li h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+main .description .description_main ul li p {
+  color: #C8C7D8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+main .description .description_main .description_link {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+main .description .description_main .description_link h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+main .description .description_main .description_link a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #6966FF;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+main .funding {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .funding .funding_main {
+  width: 55%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Mukta", sans-serif;
+}
+main .funding .funding_main h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+main .funding .funding_main .funding_main_card {
+  width: 780px;
+  height: 120px;
+  padding: 15px 24px;
+  background: #393953;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .funding .funding_main .funding_main_card ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+main .funding .funding_main .funding_main_card ul li b {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+main .funding .funding_main .funding_main_card ul li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Space Mono;
+  color: #fff;
+  text-decoration: none;
+}
+main .funding .funding_main .funding_main_card p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+}
+main .funding .funding_main .funding_main_card p::before {
+  content: "Date";
+  color: #C8C7D8;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+main .grants {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../../img/Grid\ bottom\ \(Zero\ Height\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 370px;
+}
+main .grants .grants_main {
+  width: 55%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Mukta", sans-serif;
+}
+main .grants .grants_main h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+main .grants .grants_main a {
+  color: #6966FF;
+  text-decoration: none;
+  display: flex;
+  align-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  gap: 10px;
+}
+main .grants .grants_main .grants_main_list {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .grants .grants_main .grants_main_list .grants_list_card {
+  width: 352px;
+  height: 536px;
+  padding: 24px;
+  background: #393953;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main .grants .grants_main .grants_main_list .grants_list_card span {
+  font-family: Space Mono;
+  font-size: 16px;
+  color: #A59EBA;
+  font-weight: 400;
+}
+main .grants .grants_main .grants_main_list .grants_list_card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+main .grants .grants_main .grants_main_list .grants_list_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+main .grants .grants_main .grants_main_list .grants_list_card img {
+  margin-top: 277px;
+}
+main .grants .grants_main .grants_main_list .grants_list_card .img_second {
+  margin-top: 300px;
+}
+main .create {
+  display: none;
+}
+main .footer {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../../img/Grid\ bottom\ \(Zero\ Height\).png);
+  background-size: 100%;
+  background-position: 0 151px;
+}
+main .footer .ft_main {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .footer .ft_main .ft_main_menu {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+main .footer .ft_main .ft_main_menu ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+main .footer .ft_main .ft_main_menu ul li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #C8C7D8;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+main .footer .ft_main .ft_main_social {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+@media screen and (max-width: 320px) {
+  main {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    height: 5000px;
+  }
+  main .youtube {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .youtube .youtube_main {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .youtube .youtube_main h1 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  main .youtube .youtube_main h1::before {
+    left: 110px;
+  }
+  main .youtube .youtube_main .youtube_main_item {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-around;
+  }
+  main .youtube .youtube_main .youtube_main_item .youtube_item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+  main .youtube .youtube_main .youtube_main_item .youtube_item p::after {
+    top: 21px;
+    left: 31px;
+    font-size: 16px;
+  }
+  main .youtube .youtube_main .youtube_main_item button {
+    padding: 12px 85px;
+  }
+  main .youtube .youtube_main .youtube_members {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  main .youtube .youtube_main .youtube_members::before {
+    left: 130px;
+    top: 52px;
+  }
+  main .description {
+    width: 100%;
+    height: 1400px;
+  }
+  main .description .description_main {
+    width: 90%;
+  }
+  main .funding {
+    width: 100%;
+    height: 600px;
+  }
+  main .funding .funding_main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  main .funding .funding_main h2 {
+    font-size: 26px;
+  }
+  main .funding .funding_main .funding_main_card {
+    width: 265px;
+    height: 148px;
+    position: relative;
+    justify-content: center;
+  }
+  main .funding .funding_main .funding_main_card ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  main .funding .funding_main .funding_main_card ul li b {
+    position: absolute;
+    left: 23px;
+    top: 15px;
+  }
+  main .funding .funding_main .funding_main_card ul li a {
+    position: absolute;
+    top: 136px;
+    left: 15px;
+  }
+  main .funding .funding_main .funding_main_card p::before {
+    top: -20px;
+  }
+  main .grants {
+    width: 100%;
+    height: 1400px;
+  }
+  main .grants .grants_main {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main .grants .grants_main h2 {
+    font-size: 24px;
+  }
+  main .grants .grants_main a {
+    font-size: 16px;
+  }
+  main .grants .grants_main .grants_main_list {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+  }
+  main .grants .grants_main .grants_main_list .grants_list_card {
+    width: 237px;
+    height: 460px;
+  }
+  main .grants .grants_main .grants_main_list .grants_list_card h3 {
+    font-size: 20px;
+  }
+  main .grants .grants_main .grants_main_list .grants_list_card span {
+    font-size: 14px;
+  }
+  main .grants .grants_main .grants_main_list .grants_list_card p {
+    font-size: 14px;
+  }
+  main .grants .grants_main .grants_main_list .grants_list_card img {
+    margin-top: 133px;
+  }
+  main .grants .grants_main .grants_main_list .grants_list_card .img_second {
+    margin-top: 190px;
+  }
+  main .create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 256px;
+    background: linear-gradient(322deg, #6966FF 0%, rgba(105, 102, 255, 0.36) 100%);
+    border-radius: 16px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+  main .create .create__main {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Mukta", sans-serif;
+  }
+  main .create p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+  main .create h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+  }
+  main .create button {
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    color: #6966FF;
+  }
+  main .footer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  main .footer .ft_main {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  main .footer .ft_main .ft_main_menu {
+    display: flex;
+    flex-direction: column;
+  }
+  main .footer .ft_main .ft_main_menu .ft_icon {
+    margin-left: -120px;
+  }
+  main .footer .ft_main .ft_main_menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+header {
+  width: 1515px;
+  height: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 15% 85%;
+  background: url(../../img/Grid\ top\ \(Zero\ Height\).png);
+  background-size: contain;
+}
+header .nav_main {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+header .nav_main .nav_main_menu {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+header .nav_main .nav_main_menu .nav_menu_item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+header .nav_main .nav_main_menu .nav_menu_item li {
+  position: relative;
+  padding: 10px 15px;
+  overflow: hidden;
+}
+header .nav_main .nav_main_menu .nav_menu_item li::before {
+  content: "";
+  width: 250px;
+  left: -260px;
+  top: 36px;
+  height: 2px;
+  background: #6966FF;
+  position: absolute;
+  transition: ease-in-out 450ms;
+  cursor: pointer;
+}
+header .nav_main .nav_main_menu .nav_menu_item li:hover::before {
+  left: 0;
+}
+header .nav_main .nav_main_menu .nav_menu_item li:hover a {
+  color: #6966FF;
+}
+header .nav_main .nav_main_menu .nav_menu_item li a {
+  text-decoration: none;
+  color: #C8C7D8;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  transition: ease-in-out 450ms;
+}
+header .nav_main .nav_main_menu button {
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background: #6966FF;
+  border-radius: 8px;
+  border: 2px solid #6966FF;
+  font-family: "Mukta", sans-serif;
+  transition: ease-in-out 450ms;
+}
+header .nav_main .nav_main_menu button:hover {
+  background: none;
+  box-shadow: 0px 0px 12px 1px rgba(197, 208, 217, 0.2);
+  cursor: pointer;
+}
+header .nav_main .nav_main_responsive {
+  display: none;
+}
+header .hero {
+  width: 95%;
+  margin: 0 auto;
+  background: url(../../img/Rectangle.png);
+  background-size: 836px 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+header .hero svg {
+  background: #393953;
+  padding: 12px;
+  border-radius: 50%;
+  position: absolute;
+  left: 232px;
+  top: 71px;
+}
+header .hero svg:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    width: 320px;
+    height: 300px;
+    background: url(../../img/Grid\ top\ \(Zero\ Height\).png);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+  }
+  header .nav_main .main_logo {
+    display: none;
+  }
+  header .nav_main .nav_main_menu {
+    display: none;
+  }
+  header .nav_main .nav_main_responsive {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .nav_main .nav_main_responsive .nav_responsive_item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  header .nav_main .nav_main_responsive .nav_responsive_item button {
+    padding: 8px 15px;
+    font-family: "Mukta", sans-serif;
+    background: #6966FF;
+    border: 2px solid #6966FF;
+    border-radius: 7px;
+    font-weight: 500;
+    color: #fff;
+  }
+  header .nav_main .nav_main_responsive .nav_responsive_item button:focus {
+    background: none;
+    box-shadow: 0px 0px 12px 1px rgba(197, 208, 217, 0.2);
+    cursor: pointer;
+  }
+  header .hero {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header .hero svg {
+    display: none;
+  }
+  header .hero .hero_main_responsive {
+    width: 272px;
+    height: 136px;
+    background: #393953;
+    border-radius: 8px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #1c1c28;
+}
+
+/*# sourceMappingURL=main.css.map */

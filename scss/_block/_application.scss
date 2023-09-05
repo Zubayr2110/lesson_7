@@ -1,0 +1,246 @@
+.application{
+    width: 1440px;
+    height: 832px;
+    margin: 0 auto;
+    background-image: url(/image/Group\ 8\ \(Traced\).svg);
+    background-repeat: no-repeat;
+    background-position-x: 740px;
+    background-position-y: 45px;
+    .application__h3{
+        background-color: #ffffff00; 
+        color: var(--text-icon-primary, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Inter', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.88px;
+    }
+    .application__lorem{
+        margin-top: 15px;
+        margin-left: 416px;
+        width: 600px;
+        height: 48px;
+        color: var(--text-icon-secondary, #C8C7D8);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Inter';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.252px;
+    }
+    .application__content{
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-left: 101px;
+        width: 1257px;
+        height: 507px;
+        .application__content-1{
+            width: 344px;
+            height: 432px;
+            transform: rotate(-1deg);
+            padding: 24px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 32px;
+            border-radius: 16px;
+            background: var(--background-secondary, #393953);
+            .application__content-1-1{
+                background-color: #393953;
+                color: #FFF;
+                text-align: left;
+                font-family: 'Nanum Pen Script', cursive;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .application__content-1-2{
+                background-color: #393953;
+                padding-top: 25px;
+                color: var(--text-icon-primary, #FFF);
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: -0.456px;
+            }
+            .application__content-1-3{
+                background-color: #393953;
+                padding-top: 16px;
+                color: var(--text-icon-primary, #FFF);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 450;
+                line-height: 24px; /* 150% */
+                letter-spacing: -0.176px;
+            }
+        }
+        .application__content-2{
+            margin-left: 23px;
+            width: 344px;
+            height: 432px;
+            transform: rotate(4deg);
+            padding: 24px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 32px;
+            flex-shrink: 0;
+            border-radius: 16px;
+            background: var(--background-secondary, #393953);
+            .application__content-1-1{
+                background-color: #393953;
+                color: #FFF;
+                text-align: left;
+                font-family: 'Nanum Pen Script', cursive;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .application__content-1-2{
+                background-color: #393953;
+                padding-top: 25px;
+                color: var(--text-icon-primary, #FFF);
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: -0.456px;
+            }
+            .application__content-1-3{
+                background-color: #393953;
+                padding-top: 16px;
+                color: var(--text-icon-primary, #FFF);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 450;
+                line-height: 24px;
+                letter-spacing: -0.176px;
+            }
+        }
+        .application__content-3{
+            margin-left: 23px;
+            width: 344px;
+            height: 432px;
+            transform: rotate(-3deg);
+            padding: 24px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 32px;
+            border-radius: 16px;
+            background: var(--background-secondary, #393953);
+            .application__content-1-1{
+                background-color: #393953;
+                color: #FFF;
+                text-align: left;
+                font-family: 'Nanum Pen Script', cursive;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .application__content-1-2{
+                background-color: #393953;
+                padding-top: 25px;
+                color: var(--text-icon-primary, #FFF);
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: -0.456px;
+            }
+            .application__content-1-3{
+                background-color: #393953;
+                padding-top: 16px;
+                color: var(--text-icon-primary, #FFF);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 450;
+                line-height: 24px; /* 150% */
+                letter-spacing: -0.176px;
+            }
+        }
+    } 
+}
+@media(max-width: 376px){
+    .application{
+        width: 100%;
+        height: 1277px;
+        background-image: url(/image/Group\ 8\ \(Traced\).svg);
+        background-repeat: no-repeat;
+        background-position-x: 200px;
+        background-size: 80px 8px;
+        .application__h3{
+            font-size: 24px;
+        }
+        .application__lorem{
+            margin-left: 55px;
+            width: 272px;
+            height: 96px;
+            font-size: 16px;
+        }
+        .application__content{
+            margin-top: 37px;
+            margin-left: 55px;
+            grid-template-columns: auto;
+            width: 272px;
+            height: 1013px;
+            .application__content-1{
+                width: 224px;
+                height: 272px;
+                .application__content-1-1{
+                    font-size: 48px;
+                }
+                .application__content-1-2{
+                    font-size: 24px;
+                }
+                .application__content-1-3{
+                    font-size: 14px;
+                }
+            }
+            .application__content-2{
+                margin-left: 0px;
+                width: 224px;
+                height: 272px;
+                .application__content-1-1{
+                    font-size: 48px;
+                }
+                .application__content-1-2{
+                    font-size: 24px;
+                }
+                .application__content-1-3{
+                    font-size: 14px;
+                }
+            }
+            .application__content-3{
+                margin-left: 0px;
+                width: 224px;
+                height: 272px;
+                .application__content-1-1{
+                    font-size: 48px;
+                }
+                .application__content-1-2{
+                    font-size: 24px;
+                }
+                .application__content-1-3{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

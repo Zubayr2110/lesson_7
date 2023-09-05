@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: var(--background-primary, #1C1C28);
+}
+.container{
+    width: 1440px;
+    height: 4908px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+@media (max-width:376px){
+    .container{
+        width: 100%;
+    }
+}
+@import './header';
+@import './featured';
+@import './whats';
+@import './frequently';
+@import './application';
+@import './cta';
+@import './footer';
